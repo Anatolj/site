@@ -1,0 +1,96 @@
+/**************global**************/
+html {
+	height: 100%;
+}
+body {
+	position: relative;
+	height: 100%;
+}
+	/*footer always bottom*/
+.glob-wrap {
+	position: absolute;
+	top: 0;
+	max-width: 1200px;
+	min-width: 970px;
+	min-height: 100%;
+
+}
+.glob-wrap:after {
+	content: "";
+	height: 80px;
+	display: block;
+}
+.pg-footer {
+	position: absolute;
+	bottom: 0;
+	height: 80px;
+	margin-top: -80px;
+	min-width: 970px;
+}
+/***************end global***************/
+
+
+/**********header***********/
+.pg-header {
+	position: relative;
+	height: 115px;
+	background-color: #EFF3F7;
+	background-image: url(../img/line.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+/*logo*/
+.pg-header__logo {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+/*social*/
+.pg-header__social{
+	float: right;
+	list-style: none;
+}
+.social__icon {
+	display: inline-block;
+	margin-left: 10px;
+}
+.social__link {
+	display: block;
+	height: 47px;
+	width: 47px;
+	text-decoration: none;
+}
+.vk {
+	background: url(../img/socials.png) no-repeat -2px -3px;
+}
+.tw {
+	background: url(../img/socials.png) no-repeat -71px -3px;
+}
+.fb {
+	background: url(../img/socials.png) no-repeat -140px -3px;
+}
+.gt {
+	background: url(../img/socials.png) no-repeat -209px -3px;
+}
+/**********end header***********/
+
+
+/**********aside************/
+
+
+
+/**********end aside************/
+
+/**********main wrap********/
+/*.main-wrap:after {
+	content: "";
+	clear: both;
+	display: table;
+}*/
+/**********end main wrap********/
+
+/*********footer************/
+.pg-footer {
+	background: #EFF3F7;
+}
+/*********end footer***********
