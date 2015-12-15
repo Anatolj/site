@@ -3,60 +3,127 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
+	<link rel="stylesheet" href="bower/normalize.css/normalize.css">
 	<link rel="stylesheet" href="css/global.css">
 </head>
 <body>
 	<div class="glob-wrap">
-	<!-- HEADER -->
-		<header class="pg-header">
-			<!-- <div class="pg-header__baner"> -->
-				<img class="pg-header__logo" src="img/logo.png" height="42" width="243" alt="logo">
-			<ul class="pg-header__social">
-				<li class="social__icon"><a href="#" class="social__link vk"></a></li>
-				<li class="social__icon"><a href="#" class="social__link tw"></a></li>
-				<li class="social__icon"><a href="#" class="social__link fb"></a></li>
-				<li class="social__icon"><a href="#" class="social__link gt"></a></li>
-			</ul>
-			<!-- </div> -->
-		</header>
-		<!-- END HEADER -->
+		<div class="page-wrap">
+		<!-- HEADER -->
+			<header class="pg-header">
+				<!-- <div class="pg-header__baner"> -->
+					<img class="logo" src="img/logo.png" height="42" width="243" alt="logo">
+				<ul class="social">
+					<li class="social__point"><a href="#" class="social__link vk"></a></li>
+					<li class="social__point"><a href="#" class="social__link tw"></a></li>
+					<li class="social__point"><a href="#" class="social__link fb"></a></li>
+					<li class="social__point"><a href="#" class="social__link gt"></a></li>
+				</ul>
+				<!-- </div> -->
+			</header>
+			<!-- END HEADER -->
 
-		<section class="main-wrap">
+			<section class="pg-main">
 
-		<!-- ASIDE -->
-			<aside class="sidebar">
-				<div class="menu">
-					<ul>
-						<li>Обо мне</li>
-						<li>Мои работы</li>
-						<li>Связаться со мной</li>
-					</ul>
+			<!-- ASIDE -->
+				<aside class="sidebar">
+					<div class="menu">
+						<ul class="menu__list">
+							<li><a href="#" class="menu__link menu__link-first">Обо мне</a></li>
+							<li><a href="#" class="menu__link">Мои работы</a></li>
+							<li><a href="#" class="menu__link">Связаться со мной</a></li>
+						</ul>
+					</div>
+					<adress class="kontakt">
+						<ul class="kontakt__list">
+							<li><span class="kontakt__head">Контакты</span></li>
+							<li><a href="#" class="kontakt__link kont-mail">pochta@mail.ru</a></li>
+							<li><a href="#" class="kontakt__link kont-phone">+79812342323</a></li>
+							<li><a href="#" class="kontakt__link kont-skype">nickname</a></li>
+						</ul>
+					</adress>
+				</aside>
+				<!-- END ASIDE -->
+
+				<!-- MAIN INFO -->
+				<div class="main">
+				<!-- main info -->
+					<div class="main__cont">
+						<h2 class="main__head">Основная информация</h2>
+						<div class="main__wrap">
+							<div class="info__ava"><img class="info__ava__img" src="img/face.png" alt="ava"></div>
+							<div class="info__detail">
+								<p>
+									<span class="info__name">Меня зовут:</span>
+									<span class="info__disc">Гомер Симпсон</span>
+								</p>
+								<p>
+									<span class="info__name">Мой возраст:</span>
+									<span class="info__disc">45 лет</span>
+								</p>
+								<p>
+									<span class="info__name">Мой город:</span>
+									<span class="info__disc">Санкт Питербург, Россия</span>
+								</p>
+								<p>
+									<span class="info__name">Моя специализация:</span>
+									<span class="info__disc">FRONT-END разработчик</span>
+								</p>
+								<p>
+									<span class="info__name info__name__skill">Ключевые навыки:</span>
+									<ul class="info__skill__list">
+										<li class="info__skill">html</li>
+										<li class="info__skill">css</li>
+										<li class="info__skill">javascript</li>
+										<li class="info__skill">gulp</li>
+										<li class="info__skill">git</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- work -->
+					<div class="main__cont">
+						<h2 class="main__head">Опыт работы</h2>
+						<div class="main__wrap">
+							<div class="main__work">
+								<p class="place">"ИП Боровицкий" - Продавец дисков</p>
+								<p class="period">Сентябрь 2005 - Август 2008</p>
+							</div>
+							<div class="main__work">
+								<p class="place">"ООО Системы безопастности" - Системный администратор</p>
+								<p class="period">Июнь 2008 - Июль 2010</p>
+							</div>
+						</div>
+					</div>
+					<!-- education -->
+					<div class="main__cont">
+						<h2 class="main__head">Образование</h2>
+						<div class="main__wrap">
+							<div class="main__educat educat__col">
+								<p class="place">Незаконченное высшее. СПБНИУ ИТМО</p>
+								<p class="period">октябрь 2012 - по настоящее время</p>
+							</div>
+							<div class="main__educat educat__cour">
+								<p class="place">Курсы Loftschool</p>
+								<p class="period">Ноябрь 2014 - по настоящее время</p>
+							</div>
+						</div>
+					</div>
 				</div>
-				<adress class="kontakt">
-					<ul>
-						<li>Контакты</li>
-						<li>pochta@mail.ru</li>
-						<li>+71234567890</li>
-						<li>skype</li>
-					</ul>
-				</adress>
-			</aside>
-			<!-- END ASIDE -->
+				<!-- END MAIN INFO -->
+			</section>
 
-			<!-- MAIN INFO -->
-			<div class="main">
-				<div class="container"></div>
-				<div class="container"></div>
-				<div class="container"></div>
-			</div>
-			<!-- END MAIN INFO -->
-		</section>
-
+		</div>
 	</div>
 	<!-- FOOTER -->
-	<footer class="pg-footer">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vitae officiis recusandae quod laudantium doloremque aut repudiandae aliquid totam unde deserunt magni rerum vel, sapiente facilis rem expedita est reiciendis.
+	<footer class="page-footer">
+		<div class="footer__wrap">
+			<div class="login">
+				<p>Войти</p>
+			</div>
+			<p class="copyright">© 2015, Это сайт Гомера, пожалуйста, не копируйте и не воруйте его</p>
+		</div>
 	</footer>
 	<!-- END FOOTER -->
 	
