@@ -1,16 +1,16 @@
-/**************global**************/
+*************global**************/
 html {
 	height: 100%;
 }
 body {
 	height: 100%;
 }
-.social, .menu__list, .kontakt__list{
+.social, .menu__list, .kontakt__list, .work__list{
 	margin: 0;
 	padding: 0;
 	list-style: none;;
 }
-.social__link, .menu__link, .kontakt__link{
+.social__link, .menu__link, .kontakt__link, .work__link{
 	text-decoration: none;
 }
 /*footer always bottom*/
@@ -303,4 +303,80 @@ body {
 	overflow: hidden;
 	margin: 0;
 }
-/*********end footer***********
+/*********end footer***********/
+
+/*********WORK****************/
+.work__point {
+	float: left;
+	max-width: 180px;
+	display: inline-block;
+	margin-bottom: 35px;
+	margin-left: 17px;
+	margin-right: 17px;
+}
+.work__prev {
+	width: 180px;
+	height: 130px;
+	border: 2px solid #3BA8C0;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+.work__prev-link {
+	display: none;
+}
+.work__link, .work__text {
+	margin-bottom: 15px;
+	text-align: center;
+	display: block;
+}
+.work__link {
+	color: #3BA8C0;
+}
+.work__text {
+	color: #7F878F;
+}
+/*prev-background*/
+.blog {
+	background: url(../img/work/loftblog.jpg);
+}
+.loft {
+	background: url(../img/work/itloft.jpg);
+}
+.land {
+	background: url(../img/work/landingsloft.jpg);
+}
+.koval {
+	background: url(../img/work/kovalchuk.png);
+}
+.school {
+	background: url(../img/work/loftschool.png);
+}
+/*************END WORK*****************/
+
+/***************CALLBACK***************/
+
+/*header*/
+.callback__header {
+	background: #48CBE8;
+	border-bottom: 17px solid #67DFFA;
+	margin-bottom: 50px;
+}
+.callback__head {
+	font-size: 1.6em;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 65px 0 68px 0;
+	font-weight: normal;
+}
+/*form*/
+.callback__form {
+	border: 1px solid;
+	width: 400px;
+	margin: auto;
+}
+
+/***************END CALLBACK**************
