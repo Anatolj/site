@@ -414,4 +414,11 @@ body {
 	width: 100%;
 	height: 180px;
 }
+/*form__button*/
+.button__send {
+	float: left;
+}
+.button__clear {
+	float: right;
+}
 /***************END CALLBACK**************
